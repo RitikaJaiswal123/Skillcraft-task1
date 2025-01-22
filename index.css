@@ -1,0 +1,75 @@
+body {
+    background-color: cornsilk;
+}
+nav{
+    background-color: black;
+    color: whitesmoke;
+    padding: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+nav.scrolled {
+    background-color: rgba(92, 243, 210, 0.8);
+    box-shadow: 0 4px 6px rgba(66, 64, 64, 0.3);
+}
+.BrandName{
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow:  8px 8px 8px wheat;
+}
+button{
+    border: 1px solid wheat;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    box-shadow: 2px 3px 4px wheat;
+    
+}
+.about{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin: 50px;
+}
+.col{
+    background-color: rgb(214, 230, 235);
+    padding: 20px;
+    text-align: center;
+}
+.getMore{
+    background-color: black;
+    color: aliceblue;
+    border: 2px solid wheat;
+    border-radius:10px ;
+    padding: 15px;
+    margin-top: 50px;
+
+}
+.services{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 20px;
+}
+.col-2{
+    background-color: rgb(154, 188, 186);
+    text-align: center;
+    padding:10px ;
+}
+.heading{
+    background-color: bisque;
+    border-radius: 20px;
+   margin-left: 50px;
+   margin-right: 50px;
+}
+.contact{
+    background-color:rgb(153, 168, 168);
+    padding: 20px;
+    display: grid;
+    grid-template-columns:repeat(3,1fr) ;
+    
+}
